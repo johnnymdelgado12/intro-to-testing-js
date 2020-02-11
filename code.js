@@ -4,5 +4,14 @@ function helloWorld() {
 }
 
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    switch (input) {
+        case input === true:
+            return "Hello, World!";
+        break;
+        case input:
+            return "Hello, " + input + "!";
+        break;
+    }
 }
+
+
